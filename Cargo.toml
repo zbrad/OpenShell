@@ -80,7 +80,7 @@ socket2 = "0.6"
 # Serialization
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-serde_yml = "0.0.12"
+serde_yml = "0.0.13"
 toml = "0.8"
 apollo-parser = "0.8.5"
 tower-mcp-types = "0.12.0"
@@ -102,7 +102,7 @@ base64 = "0.22"
 # Crypto / Auth
 sha2 = "0.10"
 rand = "0.9"
-jsonwebtoken = "9"
+jsonwebtoken = "10"
 getrandom = "0.3"
 ring = "0.17"
 spiffe = { version = "0.15", default-features = false, features = ["workload-api-jwt", "tracing"] }
